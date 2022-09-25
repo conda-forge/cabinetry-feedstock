@@ -1,5 +1,5 @@
 {% set name = "cabinetry" %}
-{% set version = "0.4.1" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 88accfd0a6138e1b0c7ce0b5f44a746a53ebed8488bea02a5333846fee71f30a
+  sha256: c8c588f49c420de718f90c61640a1e0027b9e7f1dfb2ee29a310b285f091a193
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - cabinetry = cabinetry.cli:cabinetry
 
@@ -44,7 +44,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'library for building and steering binned template fits'
+  summary: library for building and steering binned template fits
 
   description: |
     cabinetry is a Python library for building and steering binned template fits. 
