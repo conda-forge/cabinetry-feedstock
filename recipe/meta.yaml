@@ -27,7 +27,7 @@ requirements:
     - boost-histogram >=1.0.0
     - awkward >=1.8
     - tabulate >=0.8.1
-    - matplotlib-base
+    - matplotlib-base >=3.5
     - typing_extensions
 
 test:
