@@ -1,5 +1,5 @@
 {% set name = "cabinetry" %}
-{% set version = "0.5.0" %}
+{% set version = "0.5.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c8c588f49c420de718f90c61640a1e0027b9e7f1dfb2ee29a310b285f091a193
+  sha256: 96811b3a49c1f065d5a21522979966f7368ddd1d4afb217da4029111cbf45fb5
 
 build:
   noarch: python
