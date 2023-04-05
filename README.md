@@ -1,11 +1,11 @@
-About cabinetry
-===============
+About cabinetry-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cabinetry-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/scikit-hep/cabinetry
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cabinetry-feedstock/blob/main/LICENSE.txt)
 
 Summary: library for building and steering binned template fits
 
