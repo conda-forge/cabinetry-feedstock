@@ -17,11 +17,10 @@ build:
     - cabinetry = cabinetry.cli:cabinetry
 
 requirements:
-  build:
-    - setuptools >=42
   host:
     - python {{ python_min }}
     - pip
+    - setuptools >=42
   run:
     - python >={{ python_min }}
     - pyhf ~=0.7.0
