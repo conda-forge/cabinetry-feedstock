@@ -13,4 +13,4 @@ pin_run_as_build:
 python:
 - 3.12.* *_cpython
 python_min:
-- '3.8'
+- '3.9'
