@@ -1,5 +1,6 @@
 {% set name = "cabinetry" %}
 {% set version = "0.6.0" %}
+{% set python_min = "3.8" %}
 
 package:
   name: {{ name|lower }}
@@ -11,8 +12,8 @@ source:
 
 build:
   noarch: python
-  number: 1
-  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
+  number: 2
+  script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - cabinetry = cabinetry.cli:cabinetry
 
